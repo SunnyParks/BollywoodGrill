@@ -1,0 +1,209 @@
+@charset "UTF-8";
+/* CSS Document */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/*Fonts for all site pages*/
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bree-serif-regular {
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/*Start of Header Elements*/
+header {
+    background-color: white;
+    width: 100%;
+    z-index: 10;
+    position: relative;
+    min-height: 30px;
+    display: inline-block;
+    text-align: center;
+}
+
+.line {
+    width: 100%;
+    margin: 0;
+    z-index: 11; 
+}
+
+.logo{
+    background: white;
+    padding: 10px;
+}
+
+nav{
+    background-color: #1E1D1D;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+}
+
+.arrowWhite{
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
+
+.arrowBlack{
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
+
+.right {
+    transform: rotate(-45deg);
+}
+
+.left {
+    transform: rotate(135deg);
+}
+
+.up {
+    transform: rotate(-135deg);
+}
+
+.down {
+    transform: rotate(45deg);
+}
+
+ul {
+    width: 90%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+
+}
+
+nav li {
+    color: white;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*End of Header Elements*/
+
+/*Footer Stuff*/
+footer {
+    background-image: url("resrevations (2).jpg");
+    position:relative;
+    width: 100%;
+}
+
+#ImageBox{
+    width: 100%;
+    margin: 0, auto;
+    display: inline-block;
+    background-color: rgba(0,0,0,0.6);
+    background-blend-mode: darken;
+}
+
+#ImageBox #Logo{
+    float: left;
+    background: white;
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 0;
+}
+
+footer h4{
+    margin-top: 20px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 21px;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+footer p {
+    color: white;
+    font-family: "Bree Serif", serif;
+    font-weight: 100;
+    font-size: 14px;
+    font-style: normal;
+    
+}
+
+.Content{
+    display: inline-block;
+    width: 20%;
+    margin-left: 0px;
+    margin-top: 20px;
+    float: left;
+}
+
+.Content hr{
+    width: 110px;
+    float: left;
+    margin-top: -25px; 
+}
+
+.Content2{
+    display: inline-block;
+    width: 20%;
+    margin-left: 0px;
+    margin-top: 20px;
+    float: left;
+}
+
+.Content2 hr{
+    width: 145px;
+    float: left;
+    margin-top: -25px; 
+}
+
+.Content3{
+    display: inline-block;
+    width: 15%;
+    margin-left: 40px;
+    margin-top: 20px;
+    float: left;
+}
+
+.Content3 hr{
+    width: 100px;
+    float: left;
+    margin-top: -25px; 
+}
+
+.Content3 img{
+background: #F9BB24;
+padding: 5px;
+}
+
+.Content3 #AddRight{
+    margin-right: 5px;
+}
+
+.Contents{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 90px;
+}
+/*End Footer Stuff*/
