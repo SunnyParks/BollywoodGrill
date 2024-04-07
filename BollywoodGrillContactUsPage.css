@@ -37,19 +37,19 @@ header {
     z-index: 11; 
 }
 
-.logo{
+.logo {
     background: white;
     padding: 10px;
 }
 
-nav{
+nav {
     background-color: #1E1D1D;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top: 5px;
 }
 
-.arrowWhite{
+.arrowWhite {
     border: solid white;
     border-width: 0 3px 3px 0;
     display: inline-block;
@@ -58,7 +58,7 @@ nav{
     margin-bottom: 3px;
 }
 
-.arrowBlack{
+.arrowBlack {
     border: solid black;
     border-width: 0 3px 3px 0;
     display: inline-block;
@@ -100,7 +100,7 @@ nav li {
     text-transform: uppercase;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -113,7 +113,7 @@ footer {
     width: 100%;
 }
 
-#ImageBox{
+#ImageBox {
     width: 100%;
     margin: 0, auto;
     display: inline-block;
@@ -121,7 +121,7 @@ footer {
     background-blend-mode: darken;
 }
 
-#ImageBox #Logo{
+#ImageBox #Logo {
     float: left;
     background: white;
     padding-left: 30px;
@@ -131,7 +131,7 @@ footer {
     margin-top: 0;
 }
 
-footer h4{
+footer h4 {
     margin-top: 20px;
     color: white;
     font-family: "Inter", sans-serif;
@@ -150,7 +150,7 @@ footer p {
     
 }
 
-.Content{
+.Content {
     display: inline-block;
     width: 20%;
     margin-left: 0px;
@@ -158,13 +158,13 @@ footer p {
     float: left;
 }
 
-.Content hr{
+.Content hr {
     width: 110px;
     float: left;
     margin-top: -25px; 
 }
 
-.Content2{
+.Content2 {
     display: inline-block;
     width: 20%;
     margin-left: 0px;
@@ -172,13 +172,13 @@ footer p {
     float: left;
 }
 
-.Content2 hr{
+.Content2 hr {
     width: 145px;
     float: left;
     margin-top: -25px; 
 }
 
-.Content3{
+.Content3 {
     display: inline-block;
     width: 15%;
     margin-left: 40px;
@@ -186,24 +186,91 @@ footer p {
     float: left;
 }
 
-.Content3 hr{
+.Content3 hr {
     width: 100px;
     float: left;
     margin-top: -25px; 
 }
 
-.Content3 img{
+.Content3 img {
 background: #F9BB24;
 padding: 5px;
 }
 
-.Content3 #AddRight{
+.Content3 #AddRight {
     margin-right: 5px;
 }
 
-.Contents{
+.Contents {
     display: flex;
     justify-content: space-evenly;
     margin-right: 90px;
 }
 /*End Footer Stuff*/
+
+/*Main Body CSS*/
+.ContactUs {
+    height: 457px;
+}
+
+.Hours {
+    height: 593px;
+}
+
+.MessageBlock {
+	display: inline-block;
+	width: 266px;
+	float: left;
+	color: black;
+    margin-left: 5%;
+}
+
+.MessageBlock h3 {
+	color: black;
+	font-size: 40px;
+}
+
+h3 {
+    color: #009A48;
+    font-weight: 650;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+p {
+    font-weight: 200;
+    font-size: 18px;
+    position: relative;
+    font-family: "Bree Serif", serif;
+    font-style: normal;
+}
+
+#MessageUnderline1 {
+    margin-top: -35px;
+	width: 265px;
+	float: left;
+}
+
+#MessageUnderline2 {
+    margin-top: -35px;
+	width: 140px;
+	float: left;
+}
+
+.ImageBlock1 {
+	display: inline-block;  
+    height: 457px;
+    width: 50%;
+	float: right;
+	object-fit: cover;
+}
+
+
+.ImageBlock2 {
+	display: inline-block;
+    height: 593px;
+    width: 50%;
+	float: left;
+	object-fit: cover;
+}
