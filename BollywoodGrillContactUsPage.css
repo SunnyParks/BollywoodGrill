@@ -252,6 +252,12 @@ p {
 	float: left;
 }
 
+#MessageUnderline3 {
+    margin-top: -35px;
+	width: 205px;
+	float: left;
+}
+
 #MessageUnderline2 {
     margin-top: -35px;
 	width: 140px;
