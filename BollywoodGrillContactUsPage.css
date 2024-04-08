@@ -34,7 +34,7 @@ header {
 .line {
     width: 100%;
     margin: 0;
-    z-index: 11; 
+    z-index: 11;
 }
 
 .logo {
@@ -214,12 +214,12 @@ padding: 5px;
 }
 
 .Hours {
-    height: 593px;
+    height: 445px;
 }
 
 .MessageBlock {
 	display: inline-block;
-	width: 266px;
+	width: 400px;
 	float: left;
 	color: black;
     margin-left: 5%;
@@ -275,7 +275,7 @@ p {
 
 .ImageBlock2 {
 	display: inline-block;
-    height: 593px;
+    height: 445px;
     width: 50%;
 	float: left;
 	object-fit: cover;
