@@ -126,11 +126,13 @@ a{
 .container {
     display: flex;
     align-items: flex-start; 
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    clear: both;
 }
 
 .list-container {
-    flex: 1; 
+    width: 50%;
 }
 
 .image-container {
@@ -140,6 +142,8 @@ a{
 .section-title {
     font-size: 28px;
     padding-left: 20px;
+    clear: both;
+    margin-bottom: 0;
 }
 
 .title {
@@ -252,7 +256,7 @@ padding: 5px;
 /*Carousel Stuff*/
 .image-carousel {
     width: 445px;
-    height: 278px;
+    height: 272px;
     overflow: hidden;
     position: relative;
 }
@@ -324,3 +328,44 @@ padding: 5px;
 }
   
 /*Carousel Stuff End*/
+
+.MessageBlock {
+	display: inline-block;
+	width: 400px;
+	float: left;
+	color: black;
+    margin-left: 5%;
+}
+
+.MessageBlock h3 {
+	color: black;
+	font-size: 40px;
+}
+
+h3 {
+    font-weight: 650;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+#MessageUnderline1 {
+    margin-top: -35px;
+	width: 115px;
+	float: left;
+    margin-bottom: 60px;
+}
+
+#MessageUnderline2 {
+    margin-top: -35px;
+	width: 150px;
+	float: left;
+}
+
+li {
+    font-weight: 200;
+    font-size: 18px;
+    position: relative;
+    font-family: "Bree Serif", serif;
+    font-style: normal;
+}
