@@ -1,110 +1,242 @@
 @charset "UTF-8";
 /* CSS Document */
 html, body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /*Fonts for all site pages*/
 .inter {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .bree-serif-regular {
-    font-family: "Bree Serif", serif;
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 
 /*Start of Header Elements*/
 header {
-    background-color: white;
-    width: 100%;
-    z-index: 10;
-    position: relative;
-    min-height: 30px;
-    display: inline-block;
-    text-align: center;
-}
-
-.line {
-    width: 100%;
-    margin: 0;
-    z-index: 11; 
+  background-color: white;
+  width: 100%;
+  z-index: 10;
+  position: relative;
+  min-height: 30px;
+  display: inline-block;
+  text-align: center;
 }
 
 .logo{
-    background: white;
-    padding: 10px;
+	background: white;
+	padding: 10px;
 }
 
 nav{
-    background-color: #1E1D1D;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: 5px;
+	background-color: #1E1D1D;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 5px;
 }
 
 .arrowWhite{
-    border: solid white;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
-    margin-left: 10px;
-    margin-bottom: 3px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left: 10px;
+  margin-bottom: 3px;
 }
 
 .arrowBlack{
-    border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
-    margin-left: 10px;
-    margin-bottom: 3px;
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left: 10px;
+  margin-bottom: 3px;
 }
 
 .right {
-    transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .left {
-    transform: rotate(135deg);
+  transform: rotate(135deg);
 }
 
 .up {
-    transform: rotate(-135deg);
+  transform: rotate(-135deg);
 }
 
 .down {
-    transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 ul {
-    width: 90%;
-    display: flex;
-    list-style: none;
-    justify-content: space-between;
-
+  width: 90%;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+	
 }
 
 nav li {
-    color: white;
-    text-align: center;
-    font-family: "Inter", sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    text-transform: uppercase;
+  color: white;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
 }
 
 a{
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /*End of Header Elements*/
+
+/*Start of Main Page's Content*/
+
+#CrabRangoon{
+	display: relative;
+    background-color: black;
+    height: 500px;
+}
+
+.overlay {
+  position: absolute; /* Sit on top of the page content */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 500px; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,.5); /* Black background with opacity */
+  z-index: 9; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+
+.line {
+  width: 100%;
+  margin: 0;
+  z-index: 11; 
+}
+
+.Banner{
+	width: 280px;
+	z-index: 10; 
+	float: right;
+	margin-right: 100px;
+	margin-top: 140px;
+}
+
+.Banner hr {
+	margin-top: -30px;
+}
+
+main  {
+  text-align: left;
+  position: relative;
+  margin-top: -7px;
+}
+
+h1 {
+	font-size: 50px;
+	color: white;
+	font-family: "Inter", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: 600;
+  	font-style: normal;
+	text-transform: uppercase;
+}
+
+
+h3{
+  color: #009A48;
+  font-weight: 650;
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+p{
+  font-weight: 200;
+  font-size: 18px;
+  position: relative;
+  font-family: "Bree Serif", serif;
+  font-style: normal;
+}
+
+
+.btn-main {
+  color: #fff;
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/*End of Crab Banner*/
+
+.MessageBlock{
+	margin-left: 60px;
+	margin-top: 30px;
+	display: inline-block;
+	width: 30%;
+	float: left;
+	color: black;
+}
+
+.MessageBlock h3{
+	color: black;
+	font-size: 40px;
+}
+
+.MessageBlock hr {
+	margin-top: -35px;
+	width: 300px;
+	float: left;
+}
+
+.MessageBlock a{
+	color: black;
+	
+}
+
+.ImageBlock1{
+	display: inline-block;
+	width: 50%;
+	float: right;
+	height: 350px;
+	object-fit: cover;
+}
+
+
+.ImageBlock2{
+	display: inline-block;
+	width: 50%;
+	float: left;
+	height: 350px;
+	object-fit: cover;
+}
+
+.OrderOnline{
+  height: 350px;
+}
+
+.Reservations{
+  height: 350px;
+}
+
+
 
 /*Footer Stuff*/
 footer {
@@ -121,7 +253,7 @@ footer {
     background-blend-mode: darken;
 }
 
-#ImageBox .Logo{
+#ImageBox #Logo{
 	float: left;
 	background: white;
 	padding-left: 30px;
@@ -152,7 +284,7 @@ footer p {
 
 .Content{
 	display: inline-block;
-	width: 40%;
+	width: 20%;
 	margin-left: 0px;
 	margin-top: 20px;
 	float: left;
@@ -209,142 +341,4 @@ footer p {
  	display: flex;
 	justify-content: space-evenly;
 	margin-right: 90px;
-}
-/*End Footer Stuff*/
-/*H1 element*/
-.MessageBlock {
-	display: inline-block;
-	float: left;
-	color: black;
-}
-
-.MessageBlock h3 {
-	color: black;
-	font-size: 40px;
-    width: 500px;
-	margin-left: 25px;
-    font-family: "Inter", sans-serif;
-}
-
-#MessageUnderline1 {
-    margin-top: -35px;
-	width: 395px;
-	float: left;
-	margin-left: 25px;
-}
-
-#PictureContainer {
-	display: inline-block;
-	position: relative;
-	text-align: center;
-	width: 100%;
-	float: left;
-}
-.btn-main {
-    color: black;
-    font-family: "Bree Serif", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 20px;
-	margin-left: 25px;
-    position: relative;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-#Pic1{
-	float: left;
-	margin-left: 30px;
-	margin-bottom: 20px;
-}
-
-
-.inter {
-    font-family: "Inter", sans-serif;
-    font-weight: bold;
-    font-optical-sizing: auto;
-    font-style: normal;
-     /*Not sure if we want to center the text or not, but this line can be removed to get rid of centering*/
-}
-
-.bree-serif-regular {
-    font-family: "Bree Serif", serif;
-    font-weight: 400;
-    font-style: normal;
-}
-#border1 {
-	border: 4px solid #DF141C;
-    margin-top: -15px;
-}
-
-#border2 {
-	border: 4px solid #F9BB24;
-	margin-top: -15px;
-}
-#MessageUnderline2 {
-    margin-top: -35px;
-	width: 285px;
-	float: left;
-	margin-left: 25px;
-}
-.btn {
-    box-sizing: border-box;
-    display: inline-block;
-    color: #212529;
-    text-align: center;
-    vertical-align: middle;
-    user-select: none;
-    background-color: #F9BB24;
-    border: 1px solid transparent;
-    padding: .375rem .75rem;
-    line-height: 1.5;
-    border-radius: .25rem;
-    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-    margin-left: 25px;
-    font-weight: 200;
-    font-size: 18px;
-    position: relative;
-    font-family: "Bree Serif", serif;
-    font-style: normal;
-}
-
-
-.ImageContainer img{
-	display: inline-block;
-	width: 500px;
-	height: 500px;
-	object-fit: cover;
-	
-	
-}
-
-
-.ImageContainerText{
-	background: black;
-	color: white;
-	display: inline-block;
-	padding: 10px;
-	border: 4px solid #F40000;
-	position: absolute;
-	margin-top: -60px;
-	margin-left: 410px;
-	z-index: 10;
-}
-#HoursText{
-	margin-left: 25px;
-    font-weight: 200;
-    font-size: 18px;
-    position: relative;
-    font-family: "Bree Serif", serif;
-    font-style: normal;
-}
-#Hours {
-    height: 370px;
-}
-
-.ImageBlock2 {
-	display: inline-block;
-    height: 370px;
-    width: 50%;
-	float: left;
-	object-fit: cover;
 }
