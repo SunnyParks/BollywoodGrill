@@ -182,7 +182,7 @@ p{
 }
 /*Carosel*/
 
-* {box-sizing:border-box}
+main {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
